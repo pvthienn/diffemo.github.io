@@ -16,10 +16,10 @@
             gap: 20px; /* Adds space between videos */
         }
         video {
-            width: auto;  /* Keeps original width */
-            height: auto; /* Keeps original height */
             border: 2px solid #ddd;
             border-radius: 10px;
+            max-width: 100%; /* Prevents overflow */
+            height: auto; /* Maintains aspect ratio */
         }
     </style>
 </head>
