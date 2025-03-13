@@ -10,10 +10,16 @@
             text-align: center;
             margin: 20px;
         }
+        div {
+            display: flex; /* Aligns items in a row */
+            justify-content: center; /* Centers the videos horizontally */
+            gap: 20px; /* Adds space between videos */
+        }
         video {
             width: auto;  /* Keeps original width */
             height: auto; /* Keeps original height */
-            margin: 10px auto; /* Centers the videos */
+            border: 2px solid #ddd;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -27,7 +33,13 @@
             <source src="media/NEU_1id.mp4" type="video/mp4">
         </video>
 
-        
+        <video controls autoplay loop muted playsinline>
+            <source src="media/NEU_id3.mp4" type="video/mp4">
+        </video>
+
+        <video controls autoplay loop muted playsinline>
+            <source src="media/NEUid2.mp4" type="video/mp4">
+        </video>
     </div>
 
 </body>
