@@ -11,15 +11,15 @@
             margin: 20px;
         }
         div {
-            display: flex; /* Aligns items in a row */
-            justify-content: center; /* Centers the videos horizontally */
-            gap: 20px; /* Adds space between videos */
+            display: flex;
+            justify-content: center;
+            gap: 20px;
         }
         video {
+            width: 240px;
+            height: 318px;
             border: 2px solid #ddd;
             border-radius: 10px;
-            max-width: 100%; /* Prevents overflow */
-            height: auto; /* Maintains aspect ratio */
         }
     </style>
 </head>
@@ -32,8 +32,6 @@
         <video controls autoplay loop muted playsinline>
             <source src="media/NEU_1id.mp4" type="video/mp4">
         </video>
-
-        
     </div>
 
 </body>
